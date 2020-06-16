@@ -13,4 +13,4 @@ This REST API depends on the following Python-3.6 modules:
 - Flask
 - requests
 - json
-- nose (for testing)
+- pytest

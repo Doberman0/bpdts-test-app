@@ -1,6 +1,5 @@
 import unittest
 import requests
-#from nose.tools import assert_true
 
 # To test the helper functions
 from helper_functions import getUsers

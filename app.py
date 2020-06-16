@@ -1,4 +1,4 @@
-#!flask/bin/python
+#!../flask/bin/python
 from flask import Flask
 from flask import jsonify
 from flask import request # Allows us to take multiple arguments
