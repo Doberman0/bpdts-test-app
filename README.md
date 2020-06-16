@@ -13,4 +13,25 @@ This REST API depends on the following Python-3.6 modules:
 - Flask
 - requests
 - json
-- pytest
+
+# Running the application
+After cloning the project using:
+> git clone <the hash of this project>
+
+Install the dependencies using but running the command in terminal:
+> ./install_dependencies
+
+Create a server on localhost using first changing the execution permissions of app.py by:
+> chmod a+x app.py
+And then actually running the application:
+> ./app.py
+
+You can send commands to the API via writing commands in the terminal. To get all the people within a 50-mile radius of London, use:
+>  curl -i "http://localhost:5000/users/London"
+Similarly, you can get all the people within a 50-mile radius of a generic latitude and longitude (this was done as some people may slightly disagree with the latitude, longitude I've assumed) via the command:
+> curl -i "http://localhost:5000/users/London?latitude=x&longitude=y"
+where x and y are the latitude (a "float") and longitude (also a "float") respectively
+
+# Testing
+Run unit tests created using the command: 
+> python3 -m unittest tests.tests
