@@ -1,3 +1,4 @@
+#!flask/bin/python
 import requests # To get users from API provided
 import json
 from math import radians, cos, sin, asin, sqrt
@@ -17,7 +18,7 @@ def haversine(lat1:float, lon1:float, lat2:float, lon2:float) -> float:
 	Returns the distance between point A (lat1, lon1) and point B (lat2, lon2)
 	As per: https://stackoverflow.com/questions/4913349/haversine-formula-in-python-bearing-and-distance-between-two-gps-points
 	'''
-	R = 3959.87433 # this is in miles.  For Earth radius in kilometers use 6372.8 km
+	R = 3959.87433 # This is in miles. For Earth radius in kilometers use 6372.8 km
 	dLat = radians(lat2 - lat1)
 	dLon = radians(lon2 - lon1)
 	lat1 = radians(lat1)

@@ -1,5 +1,5 @@
 # bpdts-test-app
-Technical test for the DWP wherin I develop a REST API that gets users from another API, an API that can list users in the UK, and displays all the users within a 50-mile radius.
+Technical test for the DWP wherein I develop a REST API that gets users from another API, an API that can list users in the UK, and displays all the users within a 50-mile radius.
 
 # The overall structure of the program/algorithm
 1) You send a get request to the API that I have written
@@ -8,8 +8,9 @@ Technical test for the DWP wherin I develop a REST API that gets users from anot
 
 # Dependencies
 This application was written and tested on Ubuntu 18.04. 
-This REST API depends on the following Python-3 modules:
+This REST API depends on the following Python-3.6 modules:
 - virtualenv
 - Flask
 - requests
 - json
+- nose (for testing)
