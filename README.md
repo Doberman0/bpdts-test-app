@@ -19,10 +19,12 @@ After cloning the project using:
 
 Install the dependencies using but running the command in terminal:
 > chmod a+x install_dependencies.sh
+
 > ./install_dependencies.sh
 
 Create a server on localhost using first changing the execution permissions of app.py by:
 > chmod a+x app.py
+
 And then actually running the application:
 > ./app.py
 
